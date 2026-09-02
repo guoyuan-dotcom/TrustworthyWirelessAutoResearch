@@ -1,0 +1,32 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+
+# Build and editor artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.tmp
+*.bak
+__pycache__/
+.pytest_cache/
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Superseded local artifacts
+/UAV_ISAC_all_references_consolidated.pdf
+/Simulation_Experimentation_and_Result_Generation/fig_system_model.pdf
